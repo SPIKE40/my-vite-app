@@ -9,7 +9,7 @@ export const msalConfig: Configuration = {
   auth: {
     clientId: "87f8596c-887d-4280-88f0-821ec093d04e", // your app reg (clientId)
     authority: "https://login.microsoftonline.com/common", // common (multi-tenant app) or your tenantId
-    redirectUri: "/",
+    redirectUri: "my-vite-app-ochre.vercel.app",
     postLogoutRedirectUri: "/",
   },
   system: {
